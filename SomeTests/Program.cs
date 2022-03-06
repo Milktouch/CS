@@ -9,7 +9,7 @@ namespace TestingStuff
         {
             string connetionString = null;
             MySqlConnection cnn;
-            connetionString = "server=mydatabase.ccmbppmoohlj.eu-central-1.rds.amazonaws.com,3306;database=mydb;uid=admin;pwd=lenovoy720;";
+            connetionString = "RandomConnectionString";
             cnn = new MySqlConnection(connetionString);
             try
             {
